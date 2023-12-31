@@ -24,7 +24,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 992890139686846464,
+      "managerID" : "992890139686846464",
       "name": "Harry Richter",
       "location": "Napa", // (optional)
       "bio": "Smells like poo",
@@ -46,7 +46,7 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 866561160424620032,
+      "managerID" : "866561160424620032",
       "name": "Jack England",
       "location": "The Mountains", // (optional)
       "bio": "Fighting fires somewhere",
@@ -68,7 +68,7 @@ export const managers = [
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 995552303740616704,
+      "managerID" : "995552303740616704",
       "name": "Owen Richter",
       "location": "Virginia", // (optional)
       "bio": "When does F1 start",
@@ -90,7 +90,7 @@ export const managers = [
     },
     {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 857472323664584704,
+      "managerID" : "857472323664584704",
       "name": "Connor Bacci",
       "location": "Napa", // (optional)
       "bio": "pee pee poo poo",
@@ -112,7 +112,7 @@ export const managers = [
     },
       {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 999925640587460608,
+      "managerID" : "999925640587460608",
       "name": "Sasha French",
       "location": "MF Ireland", // (optional)
       "bio": "research...",
@@ -134,7 +134,7 @@ export const managers = [
     },
       {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 995927327571861504,
+      "managerID" : "995927327571861504",
       "name": "Tom Salsmen",
       "location": "Napa", // (optional)
       "bio": "Like long walks on the beach",
@@ -156,7 +156,7 @@ export const managers = [
     },
       {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 995525897077821440,
+      "managerID" : "995525897077821440",
       "name": "Finn Barry",
       "location": "The City", // (optional)
       "bio": "MIA",
@@ -178,7 +178,7 @@ export const managers = [
     },
       {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 997336732758601728,
+      "managerID" : "997336732758601728",
       "name": "Jacob Bowman",
       "location": "Napa", // (optional)
       "bio": "refuses to put the license plate cover on",
@@ -200,7 +200,7 @@ export const managers = [
     },
       {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 996970919488716800,
+      "managerID" : "996970919488716800",
       "name": "Lewis Owen",
       "location": "Phoenix", // (optional)
       "bio": "GF whipped",
@@ -222,7 +222,7 @@ export const managers = [
     },
       {
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : 992340574118158336,
+      "managerID" : "992340574118158336",
       "name": "Angelo Prosceno",
       "location": "Wyoming", // (optional)
       "bio": "maybe next year",
