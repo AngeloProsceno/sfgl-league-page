@@ -242,33 +242,8 @@
     <div class="team">{getTeamNameFromTeamManagers(leagueTeamManagers, rosterID, year)}</div>
     <div class="spacer" />
     <div class="info">
-        <!-- Favorite team (optional) -->
-        <div class="infoSlot infoTeam">
-            {#if manager.favoriteTeam}
-                <div class="infoIcon">
-                    <img class="infoImg" src="https://sleepercdn.com/images/team_logos/nfl/{manager.favoriteTeam}.png" alt="favorite team"/>
-                </div>
-            {:else}
-                <div class="infoIcon question">
-                    <img class="infoImg" src="/managers/question.jpg" alt="favorite team"/>
-                </div>
-            {/if}
-        </div>
-        <!-- Preferred contact -->
-        <div class="infoSlot">
-            {#if manager.preferredContact}
-                <div class="infoIcon">
-                    <img class="infoImg" src="/{manager.preferredContact}.png" alt="{manager.preferredContact}"/>
-                </div>
-                <div class="infoAnswer">
-                    {manager.preferredContact}
-                </div>
-            {:else}
-                <div class="infoIcon question">
-                    <img class="infoImg" src="/managers/question.jpg" alt="favorite team"/>
-                </div>
-            {/if}
-        </div>
+        
+
         <!-- Rebuild mode (optional and only displayed for dynasty leagues) -->
         {#if dynasty}
             <div class="infoSlot infoRebuild">
