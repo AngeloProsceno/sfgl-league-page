@@ -72,7 +72,7 @@ export const managers = [
       "name": "Owen Richter",
       "location": "Virginia", // (optional)
       "bio": "I'm just here so I don't get fined",
-      // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/GlizzyGobblers.png", // square ratio recommended (no larger than 500x500)
       // "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       // "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       // "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -160,7 +160,7 @@ export const managers = [
       "name": "Finn Barry",
       "location": "The City", // (optional)
       "bio": "MIA",
-      // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/FlamingDragons.png", // square ratio recommended (no larger than 500x500)
       // "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       // "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       // "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -204,7 +204,7 @@ export const managers = [
       "name": "Lewis Owen",
       "location": "Phoenix", // (optional)
       "bio": "GF whipped",
-      // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/AnailPounder.png", // square ratio recommended (no larger than 500x500)
       // "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       // "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       // "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
