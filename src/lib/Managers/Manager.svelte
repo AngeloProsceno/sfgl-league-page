@@ -305,29 +305,6 @@
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
 
-//    {#if loading}
-//        <!-- promise is pending -->
-//        <div class="loading">
-//            <p>Retrieving players...</p>
-//            <LinearProgress indeterminate />
-//        </div>
-//    {:else}
-//        <Roster division="1" expanded={false} {rosterPositions} {roster} {leagueTeamManagers} {players} {startersAndReserve} />
-//    {/if}
-
-//    <h3>Team Transactions</h3>
-//    <div class="managerConstrained">
-//        {#if loading}
-//            <!-- promise is pending -->
-//            <div class="loading">
-//                <p>Retrieving players...</p>
-//                <LinearProgress indeterminate />
-//            </div>
-//        {:else}
-//            <TransactionsPage {playersInfo} transactions={teamTransactions} {leagueTeamManagers} show='both' query='' page={0} perPage={5} />
-//        {/if}
-//    </div>
-
     <div class="managerNav">
         <Group variant="outlined">
             {#if manager == 0}
