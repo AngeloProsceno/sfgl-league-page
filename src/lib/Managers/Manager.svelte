@@ -263,32 +263,7 @@
             {/if}
         </div>
 
-        <div class="managerNav upper">
-            <Group variant="outlined">
-                {#if manager == 0}
-                    <Button disabled class="selectionButtons" on:click={() => changeManager(parseInt(manager) - 1, true)} variant="outlined">
-                        <Label>Previous Manager</Label>
-                    </Button>
-                {:else}
-                    <Button class="selectionButtons" on:click={() => changeManager(parseInt(manager) - 1, true)} variant="outlined">
-                        <Label>Previous Manager</Label>
-                    </Button>
-                {/if}
-                <Button class="selectionButtons" on:click={() => goto('/managers')} variant="outlined">
-                    <Label>All Managers</Label>
-                </Button>
-                {#if manager == managers.length - 1}
-                    <Button disabled class="selectionButtons" on:click={() => changeManager(parseInt(manager) + 1, true)} variant="outlined">
-                        <Label>Next Manager</Label>
-                    </Button>
-                {:else}
-                    <Button class="selectionButtons" on:click={() => changeManager(parseInt(manager) + 1, true)} variant="outlined">
-                        <Label>Next Manager</Label>
-                    </Button>
-                {/if}
-            </Group>
-        </div>
-
+       
         <p class="bio">{@html viewManager.bio}</p>
 
         {#if viewManager.philosophy}
@@ -305,30 +280,6 @@
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
 
-    <div class="managerNav">
-        <Group variant="outlined">
-            {#if manager == 0}
-                <Button disabled class="selectionButtons" on:click={() => changeManager(parseInt(manager) - 1)} variant="outlined">
-                    <Label>Previous Manager</Label>
-                </Button>
-            {:else}
-                <Button class="selectionButtons" on:click={() => changeManager(parseInt(manager) - 1)} variant="outlined">
-                    <Label>Previous Manager</Label>
-                </Button>
-            {/if}
-            <Button class="selectionButtons" on:click={() => goto('/managers')} variant="outlined">
-                <Label>All Managers</Label>
-            </Button>
-            {#if manager == managers.length - 1}
-                <Button disabled class="selectionButtons" on:click={() => changeManager(parseInt(manager) + 1)} variant="outlined">
-                    <Label>Next Manager</Label>
-                </Button>
-            {:else}
-                <Button class="selectionButtons" on:click={() => changeManager(parseInt(manager) + 1)} variant="outlined">
-                    <Label>Next Manager</Label>
-                </Button>
-            {/if}
-        </Group>
-    </div>
+   
 
 </div>
