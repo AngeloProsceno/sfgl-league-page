@@ -2,8 +2,8 @@
     import Button, { Group, Label } from '@smui/button';
 	import LinearProgress from '@smui/linear-progress';
     import {loadPlayers, getLeagueTransactions} from '$lib/utils/helper';
-	import Roster from '../Rosters/Roster.svelte';
-	import TransactionsPage from '../Transactions/TransactionsPage.svelte';
+//	import Roster from '../Rosters/Roster.svelte';
+//	import TransactionsPage from '../Transactions/TransactionsPage.svelte';
     import { goto } from '$app/navigation';
     import ManagerFantasyInfo from './ManagerFantasyInfo.svelte';
     import ManagerAwards from './ManagerAwards.svelte';
@@ -305,28 +305,28 @@
 
     <ManagerAwards {leagueTeamManagers} tookOver={viewManager.tookOver} {awards} {records} {rosterID} managerID={viewManager.managerID} />
 
-    {#if loading}
-        <!-- promise is pending -->
-        <div class="loading">
-            <p>Retrieving players...</p>
-            <LinearProgress indeterminate />
-        </div>
-    {:else}
-        <Roster division="1" expanded={false} {rosterPositions} {roster} {leagueTeamManagers} {players} {startersAndReserve} />
-    {/if}
+//    {#if loading}
+//        <!-- promise is pending -->
+//        <div class="loading">
+//            <p>Retrieving players...</p>
+//            <LinearProgress indeterminate />
+//        </div>
+//    {:else}
+//        <Roster division="1" expanded={false} {rosterPositions} {roster} {leagueTeamManagers} {players} {startersAndReserve} />
+//    {/if}
 
-    <h3>Team Transactions</h3>
-    <div class="managerConstrained">
-        {#if loading}
-            <!-- promise is pending -->
-            <div class="loading">
-                <p>Retrieving players...</p>
-                <LinearProgress indeterminate />
-            </div>
-        {:else}
-            <TransactionsPage {playersInfo} transactions={teamTransactions} {leagueTeamManagers} show='both' query='' page={0} perPage={5} />
-        {/if}
-    </div>
+//    <h3>Team Transactions</h3>
+//    <div class="managerConstrained">
+//        {#if loading}
+//            <!-- promise is pending -->
+//            <div class="loading">
+//                <p>Retrieving players...</p>
+//                <LinearProgress indeterminate />
+//            </div>
+//        {:else}
+//            <TransactionsPage {playersInfo} transactions={teamTransactions} {leagueTeamManagers} show='both' query='' page={0} perPage={5} />
+//        {/if}
+//    </div>
 
     <div class="managerNav">
         <Group variant="outlined">
